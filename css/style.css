@@ -1,0 +1,60 @@
+*
+{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    height: 56px;
+    display: flex;
+
+    /* position: sticky; */
+    top: 0;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-item
+{
+    align-content: space-between;
+    
+}
+
+.item
+{
+    vertical-align: middle;
+    position: relative;
+    padding-left: 23px;
+}
+
+.container-item button{
+    padding-left: 0px;
+    width: 57px;
+    height: 40px;
+
+    position: relative;
+    right: 5px
+}
+
+.container-item input{
+    width: 404px;
+    height: 39px;
+    border: solid 1px #CCCCCC;
+}
+
+/* Estilização da main */
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(3, 262);
+}
