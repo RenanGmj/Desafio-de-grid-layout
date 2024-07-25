@@ -52,6 +52,44 @@ main{
     flex-direction: row;
 
 }
+article{
+
+    width: 218px;
+    height:968px ;
+
+    max-width: 218px;
+    max-height: 968px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+
+    
+    gap: 22px;
+    margin-top: 24px;
+    margin-left: 22px;
+
+
+    
+}
+
+.item-list img, a{
+    text-decoration: none;
+    list-style: none;
+
+    font-family: sans-serif, "Roboto";
+    font-weight: 400;
+    color: #000000;
+
+    vertical-align: middle;
+    gap: 22px;
+
+}
 
 section{
     display: grid;
