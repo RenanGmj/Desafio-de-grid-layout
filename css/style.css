@@ -125,7 +125,11 @@ section{
 
 .cell-video p{
     white-space: pre-line;
-    font-family: sans-serif "Roboto";
+    font-family: sans-serif, "Roboto";
     font-size: 12px;
-    font-family: 400;
+    font-weight: 400;
+    color:#515151;
+    position: relative;
+    top: -18px;
+    margin-left: 54px;
 }
